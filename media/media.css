@@ -1,0 +1,227 @@
+@media screen and (min-width:320px) and (max-width:570px){
+     
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .nav {
+        display:inline-block;
+        justify-content: none;
+        align-items: none;
+    }
+    .nav ul a {
+        /* margin: 0px 13px; */
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        padding: 2px 4px;
+        font-weight: bold;
+    }
+    #hire-button {
+        background-color: rgb(72, 0, 255);
+        color: white;
+        border-radius: 7px;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .had1{
+        padding: 20px;
+    }
+    #home-hading {
+        text-align: left;
+        font-size: 23px;
+        font-weight: 900;
+        margin: 0;
+    }
+    .item :is(h1,p, a) {
+        padding: 5px 0px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .item{
+        display: block;
+    }
+     .image1{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    } 
+    .image1 img{
+        width: 100%;
+        height: 100%;
+    } 
+    .pics {
+        margin-top: 20px;
+        padding: 30px;
+        text-align: center;
+    }
+    .pics h2{
+        font-size: 13px;
+    }
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 17px 8px;
+        flex-wrap: wrap;
+    }
+    .container h1 {
+        text-align: center;
+        color: rgb(59, 58, 62);
+        font-size: 28px;
+        padding: 20px 0;
+        width: unset;
+        margin: auto;
+    }
+    .slid {
+        display: flex;
+        flex-direction: column;
+        margin: unset;
+        justify-content: center;
+        align-items: center;
+    }
+    .slides {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid rgba(93, 91, 91, 0.741);
+        width: 220px;
+        height: 506px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    #earth-heading {
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+        font-size: 28px;
+        margin: auto;
+    }
+    .earth_boxes {
+        display: block;
+    }
+
+    .earth_box {
+        border-radius: 20px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #0000007e;
+        margin: 20px;
+        color: #fff;
+    }
+    .earth_box :is(h3, p) {
+        padding: 0 10px;
+        font-size: 17px;
+    }
+    .hire {
+        display: block;
+        margin: 0px 20px;
+    }
+
+.hirepic img {
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+    .hire-hadings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 20px;
+    }
+
+    
+    .hire-hadings h2{
+        font-size: 16px;
+    }
+    
+    .hire-hadings p{
+        font-size:13px;
+    }
+    .hair-containt {
+        width: unset;
+    }
+    .upper-footer {
+        background: rgb(95, 37, 240);
+        padding: 8px 0px;
+        margin-top: 50px;
+    }
+    .upper-heading {
+        text-align: center;
+        color: #fff;
+    }
+
+
+    .upper-heading h2 {
+        padding: 0px ;
+        font-size: 18px;
+        margin-bottom: 27px;
+    }
+    .upper-heading span {
+        margin: 0px 9px;
+        font-size: 9px;
+    }
+
+    #Developer-button {
+        background-color: rgba(72, 0, 255, 0);
+        color: white;
+        border: #fff 2px solid;
+        border-radius: 7px;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-size: 7px;
+        text-decoration: none;
+    }
+    footer {
+        background-color: #4E0FEA;
+        padding: unset;
+    }
+    #footer {
+        margin: unset;
+    }
+    .social-logo img {
+        object-fit: contain;
+        width: 25px;
+        height: 25px;
+        filter: invert(100%);
+        mix-blend-mode: lighten;
+        margin: 3px;
+        padding: 2px;
+    }
+    .social-logo ul {
+        list-style: none;
+        color: #fff;
+        font-size: 11px;
+        line-height: 23px;
+    }
+    #last-color {
+        color: #c9c0c0;
+        font-size: 10px;
+    }
+    .social-service a {
+        color: #fff;
+        text-decoration: none;
+        padding-left: 51px;
+        font-size: 14px;
+    }
+    .social-services {
+        padding: 10px 0;
+        border-top: 2px solid white;
+        display: block;
+    }
+    .footer-logo img {
+        width: 140px;
+    }
+
+
+
+
+
+}
